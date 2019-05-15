@@ -22,7 +22,7 @@ end
 def printer(attendees)
 
   attendees.length.times do |i|
-    batch_badge_creator(attendees)[i]
-    assign_rooms(attendees)[i]
+    puts batch_badge_creator(attendees)[i]
+    puts assign_rooms(attendees)[i]
   end
 end
