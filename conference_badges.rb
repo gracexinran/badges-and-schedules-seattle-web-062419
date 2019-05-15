@@ -20,7 +20,7 @@ def assign_rooms(speakers)
 end
 
 def printer(attendees)
-  attendees.length.times do  
+  attendees.length.times do
     batch_badge_creator(attendees)[i]
     assign_rooms(attendees)[i]
   end
